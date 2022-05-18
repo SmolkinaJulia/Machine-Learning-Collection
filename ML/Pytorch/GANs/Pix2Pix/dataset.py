@@ -32,7 +32,7 @@ class MapDataset(Dataset):
 
 
 if __name__ == "__main__":
-    dataset = MapDataset("https://drive.google.com/file/d/1M583XKFNZLEGGY7sV6utjbfyKb_VYH-6/view?usp=sharing")
+    dataset = MapDataset("https://drive.google.com/drive/folders/1aMI77ldKKbzJPREqrrHQITaijeDtwdBo?usp=sharing")
     loader = DataLoader(dataset, batch_size=5)
     for x, y in loader:
         print(x.shape)
